@@ -1,0 +1,52 @@
+.header{
+    background-image: url(./images/days.png);
+    color: rgb(236, 148, 15);
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: rgb(236, 172, 188);
+}
+
+.weekdays {
+    margin: 1.5%;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+  
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: black;
+    text-align: center;
+    height: 13.6%;
+}
+
+.message{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.errorMessage{
+    text-align: center;
+}
+
+.dates{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.dates .date1{
+    padding-bottom: 1.5%;
+}
+
+.dates .date2{
+    padding-top: 1.5%;
+} 
