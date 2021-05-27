@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
     <link rel="stylesheet" href="matching.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Matching Days</title>
+
+    <script type="text/x-template" class="matching">
+        {{#each day}}
+                <li class="weekdayLi">{{this}}</li>
+        {{/each}}
+    </script>
+
 </head>
 <body>
 
@@ -14,27 +22,7 @@
     </div>
 
     <ul class="weekdays">
-        <li id="day1">
-            Sunday
-        </li>
-        <li id="day2">
-            Monday
-        </li>
-        <li id="day3">
-            Tuesday
-        </li>
-        <li id="day4">
-            Wednesday
-        </li>
-        <li id="day5">
-            Thursday
-        </li>
-        <li id="day6">
-            Friday
-        </li>
-        <li id="day7">
-            Saturday
-        </li>
+        <li class="weekDisplay">weekday</li>
     </ul>
 
     <div class="message">
@@ -61,30 +49,6 @@
 
     <script src="./factory-function/matching-factory.js"></script>
     <script src="./javascript/matching-days.js"></script>
-
-    <!-- <div class="weekdays">
-        <div id="day1">
-            Sunday
-        </div>
-        <div id="day2">
-            Monday
-        </div>
-        <div id="day3">
-            Tuesday
-        </div>
-        <div id="day4">
-            Wednesday
-        </div>
-        <div id="day5">
-            Thursday
-        </div>
-        <div id="day6">
-            Friday
-        </div>
-        <div id="day7">
-            Saturday
-        </div>
-    </div> -->
 
 
     

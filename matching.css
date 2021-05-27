@@ -12,15 +12,15 @@ body{
     background-color: rgb(236, 172, 188);
 }
 
-.weekdays{
-    margin: 1.5%;
+.weekdayLi{
+    margin: 0.5%;
     padding: 10px 0;
     background-color:#ddd;
 }
   
-.weekdays li{
+.weekdayLi{
     display: inline-block;
-    width: 13.6%;
+    width: 12.6%;
     color: black;
     text-align: center;
     /* margin-top: 0.5%; */
@@ -53,14 +53,14 @@ body{
     padding-top: 1.5%;
 }
 
-.daysMatch{
+.green{
     background-color: green;
 }
 
-.daysNoMatch1{
+.purple{
     background-color: purple;
 }
 
-.daysNoMatch2{
+.red{
     background-color: red;
 }

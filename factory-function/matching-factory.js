@@ -16,6 +16,7 @@ function factoryMatching(){
         return {
             weekday1,
             weekday2,
+            daysOfTheWeek,
         }
     }
 
