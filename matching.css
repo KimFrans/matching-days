@@ -12,21 +12,25 @@ body{
     background-color: rgb(236, 172, 188);
 }
 
-.weekdayLi{
+li{
     margin: 0.5%;
     padding: 10px 0;
     background-color:#ddd;
-}
-  
-.weekdayLi{
     display: inline-block;
     width: 12.6%;
     color: black;
     text-align: center;
+}
+  
+/* .weekdayLi{ */
+    /* display: inline-block;
+    width: 12.6%;
+    color: black;
+    text-align: center; */
     /* margin-top: 0.5%; */
     /* margin-bottom: 0.5%; */
     /* height: 13.6%; */
-}
+/* } */
 
 .message{
     text-align: center;

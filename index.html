@@ -10,7 +10,9 @@
 
     <script type="text/x-template" class="matching">
         {{#each day}}
-                <li class="weekdayLi">{{this}}</li>
+                <li class="{{this.color}}">
+                    {{this.day}}
+                </li>
         {{/each}}
     </script>
 
@@ -22,7 +24,7 @@
     </div>
 
     <ul class="weekdays">
-        <li class="weekDisplay">weekday</li>
+        <!-- <li class="weekDisplay">weekday</li> -->
     </ul>
 
     <div class="message">
