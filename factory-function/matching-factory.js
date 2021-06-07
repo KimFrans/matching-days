@@ -22,7 +22,6 @@ function factoryMatching(){
         }
     }
 
-
     function getDateTwo(dateDay2){
         var dateDayTwo = new Date(dateDay2);
         second = dateDayTwo.getDay();
