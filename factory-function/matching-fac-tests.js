@@ -17,7 +17,7 @@ describe("Matching Days",function(){
         assert.equal(factTest.getDateOne(), undefined)
     });
 
-    it("Should get the dates for the first and second date",function(){
+    it("Should get the dates for the first and second date and check if they match",function(){
         var factTest = factoryMatching()
 
         factTest.getDateOne("2/06/2021")
